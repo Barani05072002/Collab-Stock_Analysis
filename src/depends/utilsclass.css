@@ -1,0 +1,32 @@
+@import url('colors.css');
+
+.flex-col{
+    display:flex;
+    flex-direction: column;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    display:block;
+}
+.dark-mode{
+    color:var(--primary_dark_text);
+    background-color: var(--primary_dark_bg);
+}
+.pad-1{
+    padding:6px 4px;
+}
+.pad-left{
+    padding-left: auto;
+}
+.mrgn-auto{
+    margin:auto;
+}
+.mrgn-1{
+    margin: 4px;
+}
+.width-full{
+    width: 90%;
+}

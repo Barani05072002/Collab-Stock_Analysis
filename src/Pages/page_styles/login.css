@@ -1,0 +1,19 @@
+@import url('../../depends/colors.css');
+
+.container{
+    border:1px solid red;
+    width: 350px;
+}
+.flex-col{
+    display:flex;
+    flex-direction: column;
+}
+.make-inline{
+    display: inline-block;
+}
+.dark_mode{
+    color:var(--primary_dark_text);
+}
+.headline{
+    color:#fff;
+}
