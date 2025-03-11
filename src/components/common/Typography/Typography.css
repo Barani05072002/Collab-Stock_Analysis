@@ -1,0 +1,64 @@
+/* src/components/common/Typography/Typography.css */
+.title {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--heading-color, #1f2937);
+  }
+  
+  .title-1 {
+    font-size: 2.25rem;
+  }
+  
+  .title-2 {
+    font-size: 1.875rem;
+  }
+  
+  .title-3 {
+    font-size: 1.5rem;
+  }
+  
+  .title-4 {
+    font-size: 1.25rem;
+  }
+  
+  .title-5 {
+    font-size: 1.125rem;
+  }
+  
+  .title-6 {
+    font-size: 1rem;
+  }
+  
+  .text {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--text-color, #4b5563);
+  }
+  
+  .text-body {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .text-small {
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+  
+  .text-large {
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
+  
+  .text-muted {
+    color: var(--text-muted, #6b7280);
+  }
+  
+  .label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+  }

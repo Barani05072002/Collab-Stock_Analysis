@@ -1,12 +1,18 @@
+// App.jsx
 import React from 'react';
-import MyForm from './Pages/MyForm';
-import LoginForm from './Pages/LoginForm';
+import { BrowserRouter } from 'react-router-dom';
+import { AuthProvider } from './context/AuthContext';
+import AppRouter from './router/AppRouter';
+import './styles/global.css';
 
-const App = ()=>{
-  return(<>
-  {/* <MyForm/> */}
-  <LoginForm />
-  </>)
-}
+const App = () => {
+  return (
+    <BrowserRouter>
+      <AuthProvider>
+        <AppRouter />
+      </AuthProvider>
+    </BrowserRouter>
+  );
+};
 
 export default App;

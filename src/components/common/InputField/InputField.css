@@ -1,0 +1,54 @@
+/* src/components/common/InputField/InputField.css */
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  
+  .input-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: var(--text-color, #333);
+  }
+  
+  .required-mark {
+    color: var(--danger-color, #dc3545);
+    margin-left: 4px;
+  }
+  
+  .input {
+    height: 40px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid var(--border-color, #ccc);
+    border-radius: 4px;
+    background-color: var(--input-bg, white);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: var(--primary-color, #4a6cf7);
+    box-shadow: 0 0 0 1px var(--primary-color-light, rgba(74, 108, 247, 0.25));
+  }
+  
+  .input:disabled {
+    background-color: var(--disabled-bg, #e9ecef);
+    cursor: not-allowed;
+  }
+  
+  .input-field-error .input {
+    border-color: var(--danger-color, #dc3545);
+  }
+  
+  .input-field-error .input:focus {
+    box-shadow: 0 0 0 1px var(--danger-color-light, rgba(220, 53, 69, 0.25));
+  }
+  
+  .input-error-message {
+    font-size: 0.75rem;
+    color: var(--danger-color, #dc3545);
+    margin-top: 4px;
+  }
