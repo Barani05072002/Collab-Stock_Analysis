@@ -1,4 +1,5 @@
-// components/form/FormField/FormField.jsx
+// Fix for the FormField component to use the correct prop names
+// src/components/form/FormField/FormField.jsx
 import React from 'react';
 import InputField from '../../common/InputField/InputField';
 import './FormField.css';
@@ -24,16 +25,17 @@ const FormField = ({
   return (
     <div className="form-field">
       <InputField
-        nameData={name}
-        valueData={value}
-        labelData={required ? `${label} *` : label}
-        typeData={type}
-        placeHolderData={placeholder}
-        onChangeFn={onChange}
-        onBlurFn={onBlur}
+        name={name}
+        label={label}
+        value={value}
+        type={type}
+        placeholder={placeholder}
+        onChange={onChange}
+        onBlur={onBlur}
+        error={touched && error ? error : ''}
+        required={required}
         {...rest}
       />
-      {touched && error && <div className="form-field-error">{error}</div>}
     </div>
   );
 };

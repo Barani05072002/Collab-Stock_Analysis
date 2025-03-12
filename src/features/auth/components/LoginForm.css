@@ -1,0 +1,57 @@
+.login-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .form-fields {
+    margin-top: 1.5rem;
+  }
+  
+  .form-actions {
+    margin-top: 1rem;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .forgot-password a {
+    color: var(--primary-color, #3b82f6);
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  .signup-link {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+  
+  .signup-link a {
+    color: var(--primary-color, #3b82f6);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .form-error-message {
+    background-color: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    color: var(--error-color, #ef4444);
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+  }

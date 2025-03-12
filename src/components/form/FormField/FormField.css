@@ -1,0 +1,10 @@
+.form-field {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .form-field-error {
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    color: var(--error-color, #ef4444);
+  }

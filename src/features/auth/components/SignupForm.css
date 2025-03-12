@@ -1,0 +1,41 @@
+.signup-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .form-fields {
+    margin-top: 1.5rem;
+  }
+  
+  .terms-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .terms-container input[type="checkbox"] {
+    margin-right: 0.5rem;
+    margin-top: 0.25rem;
+  }
+  
+  .login-link {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+  
+  .login-link a {
+    color: var(--primary-color, #3b82f6);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  
