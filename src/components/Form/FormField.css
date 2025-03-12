@@ -1,0 +1,121 @@
+/* FormField.css */
+.form-field {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .form-field-row {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .form-field-column {
+    flex: 1;
+  }
+  
+  .form-section {
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .form-section-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #111827;
+  }
+  
+  .form-section-description {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 16px;
+  }
+  
+  .form-group {
+    margin-bottom: 12px;
+  }
+  
+  .form-group-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #374151;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 640px) {
+    .form-field-row {
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+  
+  /* Dark mode styles */
+  .dark-mode .form-section {
+    border-bottom-color: #4b5563;
+  }
+  
+  .dark-mode .form-section-title {
+    color: #f9fafb;
+  }
+  
+  .dark-mode .form-section-description {
+    color: #9ca3af;
+  }
+  
+  .dark-mode .form-group-label {
+    color: #e5e7eb;
+  }
+  
+  /* Form validation states */
+  .form-field.has-success .input-field {
+    border-color: #10b981;
+  }
+  
+  .form-field.has-success .form-feedback {
+    color: #10b981;
+  }
+  
+  .form-field.has-error .form-feedback {
+    color: #ef4444;
+  }
+  
+  .form-feedback {
+    font-size: 0.75rem;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-feedback-icon {
+    margin-right: 4px;
+  }
+  
+  /* Form actions section */
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+    gap: 12px;
+  }
+  
+  /* Form layout classes */
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+  }
+  
+  /* Optional field indicator */
+  .optional-indicator {
+    font-size: 0.75rem;
+    color: #6b7280;
+    font-style: italic;
+    margin-left: 4px;
+  }
+  
+  /* Animated focus effect */
+  .form-field .input-field:focus {
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }

@@ -1,11 +1,10 @@
 import React from 'react';
-import MyForm from './Pages/MyForm';
-import LoginForm from './Pages/LoginForm';
+import LoginPage from './pages/LoginPage';
 
 const App = ()=>{
   return(<>
   {/* <MyForm/> */}
-  <LoginForm />
+  <LoginPage />
   </>)
 }
 

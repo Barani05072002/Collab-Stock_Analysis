@@ -1,6 +1,118 @@
-@import url('../../depends/utilsclass.css');
-
-.input-container{
-    border: 1px solid blue;
-    
-}
+/* InputField.css */
+.input-container {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-label {
+    font-size: 0.875rem;
+    margin-bottom: 4px;
+    font-weight: 500;
+    color: #374151;
+  }
+  
+  .required-indicator {
+    color: #ef4444;
+    margin-left: 4px;
+  }
+  
+  .input-wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #d1d5db;
+    background-color: white;
+    color: #1f2937;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+  }
+  
+  .input-field::placeholder {
+    color: #9ca3af;
+  }
+  
+  .input-error {
+    border-color: #ef4444;
+  }
+  
+  .input-error:focus {
+    box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.25);
+  }
+  
+  .input-disabled {
+    background-color: #f3f4f6;
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+  
+  .error-message {
+    color: #ef4444;
+    font-size: 0.75rem;
+    margin-top: 4px;
+  }
+  
+  .helper-text {
+    color: #6b7280;
+    font-size: 0.75rem;
+    margin-top: 4px;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: #6b7280;
+  }
+  
+  .password-toggle:hover {
+    color: #4b5563;
+  }
+  
+  /* Dark mode styles */
+  .dark-mode .input-label {
+    color: #e5e7eb;
+  }
+  
+  .dark-mode .input-field {
+    background-color: #1f2937;
+    border-color: #4b5563;
+    color: #f9fafb;
+  }
+  
+  .dark-mode .input-field::placeholder {
+    color: #9ca3af;
+  }
+  
+  .dark-mode .input-disabled {
+    background-color: #374151;
+  }
+  
+  .dark-mode .helper-text {
+    color: #9ca3af;
+  }
