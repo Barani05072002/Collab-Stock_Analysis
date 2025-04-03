@@ -1,11 +1,2 @@
-@import url('./depends/colors.css');
-@import url('./depends/utilsclass.css');
+@import "tailwindcss";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: var(--primary_dark_bg);
-}
