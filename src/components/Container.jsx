@@ -3,7 +3,7 @@ import img from '../assets/Rectangle 2.png'
 
 const Container = ({ children }) => {
     return (
-        <div className="flex items-center justify-center min-h-screen bg-black cont" 
+        <div className="flex items-center justify-center min-h-screen bg-black" 
         // style={{
         //   backgroundImage: 'linear-gradient(rgba(75, 75, 75, 0.2) 1px, transparent 1px), linear-gradient(90deg, rgba(75, 75, 75, 0.2) 1px, transparent 1px)',  
         //   backgroundSize: '30px 30px'

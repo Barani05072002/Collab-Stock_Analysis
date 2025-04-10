@@ -1,9 +1,0 @@
-.cont{
-    /* background: url(../assets/Rectangle\ 2.png) center repeat; */
-    background: url(../assets/Rectangle\ 2.png)
-    ,linear-gradient(
-        rgba(2, 2, 2), 
-        rgba(2, 2, 2)
-      );
-    background-size: 20px 20px;
-}
